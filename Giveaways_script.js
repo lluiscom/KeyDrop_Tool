@@ -14,8 +14,8 @@ const askForLink = () => {
   });
 };
 
-/* This function creates an array of profile numbers from 1 to 70, ensuring each set of 10 numbers
-is generated separately then combines these sets into one array and shuffles them randomly
+/* This function creates an array of profile numbers ranging from 1 to 70, ensuring each set of 10 numbers
+is generated separately, then combines these sets into one 70-lenght array and shuffles each number randomly
 IMPORTANT: This requires YOU to make some adjustments on the code (explained down below)        */
 
 // Im using sets of 10 numbers each set, so a set represents 10 profiles (10 steam accounts). That's because I deposited the money required for the giveaways in sets/groups of 10 profiles
