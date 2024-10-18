@@ -79,8 +79,6 @@ for (let i = 1; i <= 70; i++) {
 ```
 - Change the number 70 to the number of profiles you want to automate.
 
-## Installation of KeyDrop_Tool
-Just download the three files and save them on your computer.
 
 ## Usage
 

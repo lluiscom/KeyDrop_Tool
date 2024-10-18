@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/lluiscom/KeyDrop_Tool#readme",
   "dependencies": {
-    "keydrop_tool": "^1.0.0"
+    "keydrop_tool": "^1.0.2"
   }
 }
