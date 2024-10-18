@@ -46,7 +46,7 @@ You can download Google Chrome from the [official Google Chrome website](https:/
 Install KeyDrop_Tool easily using npm:
 
 ```bash
-npm install keydrop-tool
+npm pack keydrop-tool #npm install sometimes fails, to ensure the installation user npm pack instead.
 ```
 ## Configuration
 
