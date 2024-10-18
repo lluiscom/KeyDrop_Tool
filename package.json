@@ -1,6 +1,6 @@
 {
   "name": "keydrop_tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scripting tool for Keydrop.com",
   "main": "dailyCase_script.js",
   "scripts": {
