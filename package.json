@@ -1,0 +1,35 @@
+{
+  "name": "keydrop_tool",
+  "version": "1.0.0",
+  "description": "Scripting tool for Keydrop.com",
+  "main": "dailyCase_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lluiscom/KeyDrop_Tool.git"
+  },
+  "keywords": [
+    "automation",
+    "keydrop",
+    "scripting",
+    "bot",
+    "nodejs",
+    "tool",
+    "case-opener",
+    "csgo",
+    "cs2",
+    "skins",
+    "udg"
+  ],
+  "author": "Lluís Colomé Murgadella <lluiscomur3@gmail.com> (https://github.com/lluiscom)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lluiscom/KeyDrop_Tool/issues"
+  },
+  "homepage": "https://github.com/lluiscom/KeyDrop_Tool#readme",
+  "dependencies": {
+    "keydrop_tool": "^1.0.0"
+  }
+}
