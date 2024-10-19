@@ -1,7 +1,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/status-working-brightgreen" alt="Status Badge" />
   <img src="https://img.shields.io/npm/v/keydrop_tool.svg" alt="npm version">
-  <img src="https://img.shields.io/npm/dw/keydrop_tool.svg" alt="npm downloads">
+  <img src="https://img.shields.io/npm/dt/keydrop_tool.svg" alt="npm downloads">
   <img src="https://img.shields.io/npm/l/keydrop_tool.svg" alt="npm license">
 </p>
 
