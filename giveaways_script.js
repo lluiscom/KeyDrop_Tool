@@ -16,6 +16,14 @@ Once you have Node.js and npm installed, you can install Puppeteer using npm by 
 This command will install the latest version of Puppeteer and download a copy of Chromium 
 that Puppeteer will use to run its functionalities.
 */
+// Importar el módulo fs para leer archivos
+const fs = require('fs'); 
+
+// Leer el archivo JSON para obtener el nombre de usuario
+const config = JSON.parse(fs.readFileSync('user_config.json', 'utf-8'));
+const userName = config.userName;
+console.log(`Nombre de usuario cargado: ${userName}`); // Confirmar que el nombre se ha cargado correctamente
+
 const puppeteer = require('puppeteer'); // Pupeteer is required in order to run the code
 const readline = require('readline').createInterface({
   input: process.stdin,
@@ -78,7 +86,7 @@ const generateAndShuffleProfiles = () => {
         '--disable-blink-features=AutomationControlled',
         '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
         //HERE YOU NEED TO PUT YOUR CHROME PROFILES DATA CARPET LOCATION, FOR EACH PROFILE YOU'LL HAVE ONE DIFFERENT DATA CARPET
-        '--user-data-dir=C:\\Users\\yourName\\AppData\\Local\\Google\\Chrome\\User Data', //The location should look like something like this
+        `--user-data-dir=C:\\Users\\${userName}\\AppData\\Local\\Google\\Chrome\\User Data`, //The location should look like something like this
         `--profile-directory=Profile ${profileIndex}`
       ]
     });
