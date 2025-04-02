@@ -43,11 +43,27 @@ You need Google Chrome on your system for creating and saving user profiles. By 
 You can download Google Chrome from the [official Google Chrome website](https://www.google.com/chrome/)
 
 ## Installation
-Install KeyDrop_Tool easily using npm:
+
+To get full access to the scripts and modify the tool, it's recommended to clone the repository:
 
 ```bash
-npm pack keydrop-tool #npm install sometimes fails, to ensure the installation use npm pack instead.
+git clone https://github.com/lluiscom/KeyDrop_Tool.git
+cd KeyDrop_Tool
+npm install
 ```
+
+This gives you all the source code, allowing you to configure the scripts and Chrome profiles as needed.
+
+---
+
+Alternatively, if you only want to install the tool as a local package:
+
+```bash
+npm pack keydrop_tool
+```
+
+> ⚠️ Note: `npm pack` will generate a `.tgz` file but will not copy the scripts to your working directory. Use this only if you know how to handle NPM tarballs.
+
 ## Configuration
 
 Before using Keydrop_Tool, you need to Set up chrome profiles and adjust the three Node.js scripts provided. Modify the path of your Chrome user data directory to point to your specific user profile location.
